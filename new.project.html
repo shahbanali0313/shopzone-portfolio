@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopZone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div id="toast">
+    ✅ Product Added Successfully
+</div>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <img src="ShopZone.png" alt="ShopZone Logo" class="site-logo">
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                      <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <div class="box product"></div>
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Products" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-flag border">
+                <select class="language-select">
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>urdu</option>
+                    <option>hinglish</option>
+                </select>
+            </div>
+<a href="login.html" class="nav-signin border" id="loginLink">
+    <p><span id="welcomeText">Hello, Sign in</span></p>
+    <p class="nav-second" id="accountText">Account & Lists</p>
+</a>        
+         <div class="nav-return border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Order</p>
+        </div>
+        <i class="fa-solid fa-cart-plus border"></i>
+        <span id="cart" class="border">0</span>
+        <button id="checkoutBtn">Proceed to Checkout</button>
+         <button class="addTocart border">Cart</button>
+         <button id="darkModeBtn">🌙 Dark Mode</button>
+        </div>
+        <div class="panel border">
+            <div class="panel-all ">
+                 <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+           <div class="panel-ops">
+            <p>Fresh</p>
+                <p>MX Player</p>
+                <p>Sell</p>
+                <p>Bestsellers</p>
+                <p>Today's Deals</p>
+                <p>Mobiles</p>
+                <p>Customer Service</p>
+            </div> 
+            <div class="panel-deals ">
+                <a href="deals in Electronics">Deals in Electronics</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section border">
+        <button class="prev">&#10094;</button>
+
+    <button class="next">&#10095;</button>
+
+    <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <div class="hero-photo">
+  <img src="ak.jpg" alt="My Photo">
+</div>
+<div class="filter-section">
+
+    <button class="filter-btn active" data-category="all">All</button>
+
+    <button class="filter-btn" data-category="home">Home</button>
+    <button class="filter-btn" data-category="Furniture">Furniture</button>
+<button class="filter-btn" data-category="Gadgets">Gadgets</button>
+
+
+    <button class="filter-btn" data-category="fashion">Fashion</button>
+
+    <button class="filter-btn" data-category="electronics">Electronics</button>
+
+    <button class="filter-btn" data-category="beauty">Beauty</button>
+
+</div>
+
+        <div class="hero-msg">
+            <p>Welcome to ShopZone. Discover amazing products with fast delivery. <a href="#shop-section"> Start Shopping Now</a> </p>
+        </div>
+    </div>
+    <div class="shop-section" id="shop-section">
+        <div class="box" data-category="home">
+    <h2 class="title">Home Decor</h2>
+    <div class="wishlist">🤍</div>
+    <div class="discount">-30% OFF</div>
+     <div class="box-img img1" ></div>
+    <p class="price">Starting at ₹999</p>
+    <div class="rating">
+    ⭐⭐⭐⭐⭐ <span>(4.8)</span>
+</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <p>See more</p>
+</div>
+<div class="box" data-category="health">
+    <h2 class="title">Health & Personal Care</h2>
+    <div class="wishlist">🤍</div>
+    <div class="discount">-30% OFF</div>
+     <div class="box-img img2" ></div>
+    <p class="price">Starting at ₹1099</p>
+    <div class="rating">
+    ⭐⭐⭐⭐⭐ <span>(4.8)</span>
+</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <p>See more</p>
+</div>
+     <div class="box" data-category="furniture">
+    <h2 class="title">Furniture</h2>
+    <div class="wishlist">🤍</div>
+    <div class="discount">-30% OFF</div>
+     <div class="box-img img3" ></div>
+    <p class="price"> Starting at ₹1500</p>
+    <div class="rating">
+    ⭐⭐⭐⭐⭐ <span>(4.8)</span>
+</div>
+<button class="add-to-cart">Add to Cart</button>
+    <p>See more</p>
+    </div>
+    <div class="box" data-category="Gadgets">
+    <h2 class="title">Gadgets</h2>
+    
+    <div class="wishlist">🤍</div>
+    <div class="discount">-30% OFF</div>
+     <div class="box-img img4" ></div>
+    <p class="price"> Starting at ₹7999</p>
+    <div class="rating">
+    ⭐⭐⭐⭐⭐ <span>(4.8)</span>
+</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <p>See more</p>
+    </div>
+    <div class="box" data-category="Beauty">
+    <h2 class="title"> Beauty Care</h2>
+    
+    <div class="wishlist">🤍</div>
+    <div class="discount">-30% OFF</div>
+     <div class="box-img img5" ></div>
+    <p class="price"> Starting at ₹399</p>
+    <div class="rating">
+    ⭐⭐⭐⭐⭐ <span>(4.8)</span>
+</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <p>See more</p>
+    </div>
+             <div class="box" data-category="food">
+             <h2 class="title">Pets food</h2>
+             
+             <div class="wishlist">🤍</div>
+             <div class="discount">-30% OFF</div>
+     <div class="box-img img6" ></div>
+    <p class="price"> Starting at ₹250</p>
+    <div class="rating">
+    ⭐⭐⭐⭐⭐ <span>(4.8)</span>
+</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <p>See more</p>
+             </div>
+            <div class="box" data-category="kids">
+            <h2 class="title">Kids Zone</h2>           
+            <div class="wishlist">🤍</div>
+            <div class="discount">-30% OFF</div>
+     <div class="box-img img7" ></div>
+    <p class="price"> Starting at ₹199</p>
+    <div class="rating">
+    ⭐⭐⭐⭐⭐ <span>(4.8)</span>
+    </div>
+    <button class="add-to-cart">Add to Cart</button>
+    <p>See more</p>
+    </div>  
+            <div class="box" data-category="Fashion">
+            <h2 class="title">Discover and Fashion Trends</h2>
+            
+            <div class="wishlist">🤍</div>
+            <div class="discount">-30% OFF</div>
+     <div class="box-img img8" ></div>
+    <p class="price"> Starting at ₹299</p>
+    <div class="rating">
+    ⭐⭐⭐⭐⭐ <span>(4.8)</span>
+    </div>
+    <button class="add-to-cart">Add to Cart</button>
+    <p>See more</p>
+            </div>
+    </div>
+    <div id="cart-box">
+  <h2>My Cart</h2>
+  <div id="cart-items"></div>
+  <h3>Total: ₹<span id="total">0</span></h3>
+</div>
+    <footer>
+        <div class="back-to-top">Back to Top</div>
+        <div class="foot-panel2">
+              <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Shopzone</a>
+                <a>Invester Relation</a>
+                <a>ShopZone Devices</a>
+                <a>ShopZone Science</a>
+              </ul>
+              <ul>
+  <p>Connect With Us</p>
+  <a href="https://www.facebook.com/people/Alfaj-Khan/100081511783344/?rdid=DAwfMV5lGyM5QuBi&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18gLDm1m1Q%2F" target="_blank">Facebook</a>
+  
+  <a href="https://www.instagram.com/alfaj_88__?igsh=YnBiZmVtbW83ODkz" target="_blank">Instagram</a>
+  
+  <a href="https://www.linkedin.com/in/shahban-ali-959819323?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
+
+  <a href="https://wa.me/919519498655" target="_blank">WhatsApp</a>
+</ul>
+              <ul>
+                <P>Make Money with Us</P>
+                 <a>Sell on ShopZone</a>
+                 <a>Sell under ShopZone Accelerator</a>
+                  <a>Protect and Build Your Brand</a>
+                  <a>ShopZone Global Selling</a>
+                  <a>Supply to Shopzone</a>
+                   <a>Become an Affiliate</a>
+                   <a>Fulfilment by ShopZone</a>
+                   <a>Advertise Your Products</a>
+                    <a>ShopZone Pay on Merchants</a>
+
+              </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notices</a>
+                <a>Your Ads privacy Choices</a>
+            </div>
+            <div class="copyright">
+                <i class="fa-solid fa-circle-dot"></i>
+                © 2026 ShopZone. Designed & Developed by Shahban Ali.
+            </div>
+        </div>
+    </footer>
+  <script src="script1.js" defer></script>  
+</body>
+</html>

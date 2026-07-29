@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+}
+
+/* Main Card */
+.checkout-container{
+    width:80%;
+    max-width:900px;
+    margin:40px auto;
+    background:#fff;
+    border-radius:15px;
+    padding:40px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+/* ShopZone Logo */
+.logo-title{
+    text-align:center;
+    color:green;
+    font-size:48px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+/* Checkout Heading */
+.checkout-container h2{
+    text-align:center;
+    font-size:34px;
+    margin-bottom:30px;
+    color:#222;
+}
+
+/* Form */
+.checkout-form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.checkout-form input,
+.checkout-form textarea,
+.checkout-form select{
+    width:100%;
+    padding:15px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+    transition:.3s;
+}
+
+.checkout-form input:focus,
+.checkout-form textarea:focus,
+.checkout-form select:focus{
+    border-color:green;
+    box-shadow:0 0 8px rgba(0,128,0,.25);
+}
+
+.checkout-form textarea{
+    resize:none;
+    height:100px;
+}
+
+/* Order Box */
+.order-box{
+    background:#f7f7f7;
+    padding:20px;
+    border-radius:12px;
+    margin:20px 0;
+}
+
+.order-box h3{
+    color:green;
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.order-box p{
+    font-size:18px;
+    margin:8px 0;
+}
+
+.total{
+    font-size:28px;
+    color:green;
+    font-weight:bold;
+}
+
+/* Button */
+.place-order{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:green;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.place-order:hover{
+    background:#006400;
+    transform:scale(1.02);
+}
+
+/* Mobile Responsive */
+@media(max-width:768px){
+
+.checkout-container{
+    width:95%;
+    padding:20px;
+}
+
+.logo-title{
+    font-size:36px;
+}
+
+.checkout-container h2{
+    font-size:28px;
+}
+
+.order-box h3{
+    font-size:22px;
+}
+
+.place-order{
+    font-size:18px;
+}
+
+}
