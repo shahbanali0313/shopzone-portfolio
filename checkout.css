@@ -136,3 +136,62 @@ body{
 }
 
 }
+.success-page{
+
+width:90%;
+
+max-width:600px;
+
+margin:120px auto;
+
+background:white;
+
+padding:40px;
+
+text-align:center;
+
+border-radius:12px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+.success-page h1{
+
+color:green;
+
+margin-bottom:20px;
+
+}
+
+.success-page p{
+
+font-size:18px;
+
+margin-bottom:30px;
+
+}
+
+.success-page button{
+
+padding:15px 35px;
+
+background:green;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+font-size:17px;
+
+}
+
+.success-page button:hover{
+
+background:#0a6b0a;
+
+}
