@@ -94,3 +94,11 @@ button:hover{
 }
 
 }
+.demo-notice{
+    background:#fff3cd;
+    color:#856404;
+    padding:12px;
+    border-radius:8px;
+    margin-bottom:20px;
+    font-size:15px;
+}
